@@ -7,7 +7,6 @@ import CommentsAccordion from "./commentsAccordion";
 function CommentsContainer(props) {
     
         const comments = props.comments
-console.log(comments)
         return (
         <Offcanvas show={props.show} onHide={props.hide} scroll={true} backdrop={false} placement={props.placement}>
           <Offcanvas.Header closeButton>

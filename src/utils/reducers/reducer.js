@@ -6,7 +6,6 @@ const initialState = [];
     const { type, payload } = action;
     switch (type) {
       case RETRIEVE_USERS:
-        console.log(payload)
         return payload;
       default:
         return users;

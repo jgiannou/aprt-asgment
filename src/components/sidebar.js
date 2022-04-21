@@ -8,7 +8,6 @@ function Sidebar(props) {
   const id = props.currentId 
   const fetchData = () => {
     UsersDataService.get(id).then((response)=>{
-      console.log(response)
         const res = response.data
         setUsers(res)
     });

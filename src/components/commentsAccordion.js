@@ -4,7 +4,6 @@ import Accordion from 'react-bootstrap/Accordion'
 function CommentsAccordion(props) {
 
     const data= props.data
-    console.log(props)
     return (
     <Accordion>
          {data.map((comment) => (
